@@ -7,7 +7,6 @@ I'm a **Machine Learning Enthusiast** and **Aspiring Tesla Engineer** with a str
 - **Machine Learning Intern** at **Kalkini** (Current)  
 - **App Developer** for **padasalai.net** (Current)  
 - **Product Development Intern** at **Boardly** (Previous)
-- 
 ## 🔥 Skills  
 - **Programming Languages:** Python, SQL, Dart  
 - **AI/ML:** Supervised Learning, PyTorch (learning), Deep Learning (exploring)  
