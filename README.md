@@ -4,6 +4,7 @@
 I'm a **Machine Learning Enthusiast** and **Aspiring Tesla Engineer** with a strong passion for **AI, Deep Learning, and Software Development**. Currently, I'm pursuing **Computer Science Engineering (CSE Core)** at **VIT** and constantly leveling up my skills in **Machine Learning, App Development, and Competitive Programming**.
 
 ## 💼 Work Experience  
+- **Ai - Summer Intern** at **Cloudstier Solutions**
 - **Machine Learning Intern** at **Kalkini** (Current)  
 - **App Developer** for **padasalai.net** (Current)  
 - **Product Development Intern** at **Boardly** (Previous)
