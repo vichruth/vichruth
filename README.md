@@ -1,73 +1,66 @@
-Hi there, I'm Vichruth M! 👋
-🚀 About Me
+<h1 align="center">Hi, I'm Vichruth M 👋</h1>
 
-I'm a Computer Science Engineering student (B.Tech 2024–2028, VIT) specializing in the intersection of Artificial Intelligence, Computer Vision, and Edge Computing.
+<p align="center">
+  <b>Machine Learning Engineer · Computer Vision · Edge AI</b><br>
+  I build deep-learning systems that run where the data is — offline, on-device, and under tight compute budgets.
+</p>
 
-My core focus is taking complex machine learning architectures and deploying them directly onto hardware. I am currently working on Embedded Machine Learning (TinyML) projects and real-time vision pipelines. As an aspiring automotive and edge AI researcher, I am deeply passionate about autonomous vehicle dynamics, ECU development, and high-performance engineering.
-🛠 Tech Stack
+<p align="center">
+  <a href="https://vichruth.github.io"><img src="https://img.shields.io/badge/Portfolio-vichruth.github.io-14365c?style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://linkedin.com/in/vichruthm9099"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:vichruth.victorious@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-d14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-    Languages: Python, C++, Java, Dart, SQL
+---
 
-    AI/ML & Data Science: PyTorch, TensorFlow, Scikit-Learn, XGBoost, Pandas, NumPy
+## 💼 Open for client & B2B work
 
-    Computer Vision & GenAI: Person Re-ID, Generative AI, LLMs, PEFT LoRA, Sentence-Transformers, Transfer Learning
+**I take on freelance and contract engagements — and I'm actively delivering on a live B2B project right now.**
 
-    Embedded & Hardware: ESP32, Arduino, Sensors & Actuators, TinyML
+If you need ML, computer vision, or edge-AI work shipped, let's talk. I deliver end to end: from data pipeline to a model running in production (including fully offline / on-premise setups where data can't leave your environment).
 
-    Backend & Development: FastAPI, Flask, Flutter, Linux environment
+**What I build for clients:**
+- 🎥 **Computer vision** — detection, classification, video search, surveillance/threat-profiling pipelines
+- ⚡ **Edge & on-device AI** — model compression (quantization, pruning, FP16/INT8) to fit constrained hardware
+- 🔒 **Offline / on-premise systems** — local RAG, on-prem chatbots, zero-external-API pipelines for sensitive data
+- 🧱 **ML backends** — FastAPI / Flask / Django services around your models, with clean REST endpoints
 
-🏎️ Featured Projects
+📩 **Let's work together → [vichruth.victorious@gmail.com](mailto:vichruth.victorious@gmail.com)** · 📞 +91-7904815700
 
-1. Pre-Cog Brakes (Predictive Torque Vectoring)
-Conceptualized and architected a vision-based predictive torque vectoring system for autonomous vehicles, designed to proactively adjust braking and suspension dynamics.
+---
 
-2. Smart ECU (Real-Time Engine Anomaly Detection)
-Developed a machine learning anomaly detection model and successfully deployed it onto an ESP32 microcontroller, bridging the gap between ML algorithms and physical automotive hardware.
+## 🔭 About me
 
-3. Low-Parameter AI Bug Detector
-Engineered a highly optimized, low-compute AI model utilizing PEFT LoRA to efficiently detect software bugs.
+CSE undergraduate at **VIT** (B.Tech 2024–2028) and a research intern working on **person re-identification with TransReID** and model-compression workflows for edge hardware. I have a patent application under review and a research paper in progress. I like the hard, unglamorous part of ML — making heavyweight models small, fast, and deployable in the real world.
 
-4. Person Re-Identification Research
-Currently authoring an academic research paper on novel solutions for Person Re-ID models to improve accuracy in complex spatial environments.
+---
 
-5. Padam-GPT for Padasalai.net
-Building an AI-powered educational assistant for www.padasalai.net, leveraging LLMs to help students seamlessly navigate and interact with our extensive database of PYQs and sample papers.
+## 🚀 Featured projects
 
-6. Kaggle: 2026 Collegiate Basketball Forecasting
-Built predictive machine learning models to forecast the outcomes of the 2026 collegiate basketball tournaments.
+| Project | What it does | Stack |
+|---|---|---|
+| **NeuroLog** | Fully offline, zero-shot semantic video search running inside a 6 GB VRAM budget | PyTorch · CLIP · FAISS · OpenCV |
+| **NIKI-LAUDA-AI** | Real-time race-engineering pipeline decoding 50 Hz binary telemetry over UDP; LSTM tyre-degradation modelling | Python · UDP · PyTorch · Pandas |
+| **Low-Parameter AI Bug Detector** | LoRA-fine-tuned CodeT5 for offline AI code fixes (basis for a research paper) | CodeT5 · LoRA/PEFT · Flask |
+| **March Mania 2026** | NCAA outcome prediction with leakage-safe feature engineering | XGBoost · scikit-learn · Pandas |
 
-7. Haptic Piano Simulator
-Developed a hardware-software interface utilizing a device that stimulates targeted finger movement to mimic playing a piano.
-💼 Work Experience
+> More on my portfolio → **[vichruth.github.io](https://vichruth.github.io)**
 
-    Machine Learning Intern at KalkiNi (Current) – Optimizing real-time computer vision pipelines utilizing transfer learning.
+---
 
-    App Developer at Padasalai.net (Current)
+## 🛠️ Tech I work with
 
-    AI Summer Intern at Cloudstier Solutions (Previous)
+**ML / DL:** PyTorch · TensorFlow · Hugging Face · scikit-learn · XGBoost · CLIP · TransReID · LoRA/PEFT
+**Computer Vision:** OpenCV · FAISS · Person Re-ID · CNNs · Transformers · Object Detection
+**Edge AI:** FP16 / INT8 Quantization · Pruning · TinyML · Embedded Deployment
+**Backend:** FastAPI · Flask · Django · Node.js · REST APIs
+**Languages & Tools:** Python · C++ · Git · Linux
 
-    Product Development Intern at Boardly (Previous)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vichruth&show_icons=true&hide_border=true&theme=default" alt="GitHub stats" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vichruth&layout=compact&hide_border=true" alt="Top languages" height="160">
+</p>
 
-🌱 What I'm Learning
+---
 
-    Advanced Edge Deployment: Optimizing neural networks for extreme low-power, high-stakes environments.
-
-    Sustainable Cooling Systems: Exploring how ML and edge computing can optimize energy consumption in physical HVAC systems.
-
-    Advanced Linux & C++: For high-performance, real-time software execution.
-
-🏆 Achievements
-
-    2nd Runner-up at National Ideathon (for the Pre-Cog Brakes system).
-
-    Completed 50+ Competitive Coding milestones in Sem 1.
-
-📫 Connect with Me
-
-    🔗 Website: www.padasalai.net
-
-    📧 Email: vichruth.victorious@gmail.com
-
-    💼 LinkedIn: Vichruth M
-
-⚡ Fun Fact: When I am not optimizing my daily-driver Suzuki Ertiga or coding in my Linux environment, you can find me in the gym strictly following Mike Mentzer's high-intensity training philosophy. On the automotive side, I firmly believe in brakes, chassis, and suspension first, engine second—which is why I appreciate the pure engineering balance of cars like the AE86 and Suzuki Cappuccino.
+<p align="center"><i>Available for freelance / contract ML & computer-vision work — reach out anytime.</i></p>
