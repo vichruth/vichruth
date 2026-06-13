@@ -1,0 +1,131 @@
+<svg viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg" width="800" height="180">
+<defs>
+  <pattern id="chk" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="8" height="8" fill="#00ffe5" opacity="0.55"/>
+    <rect x="8" y="8" width="8" height="8" fill="#00ffe5" opacity="0.55"/>
+  </pattern>
+  <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0 L0 0 0 40" fill="none" stroke="#0a0a35" stroke-width="0.6"/>
+  </pattern>
+  <style>
+    @keyframes blink2{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .bl{animation:blink2 1s step-start infinite}
+  </style>
+</defs>
+
+<!-- ── BG ── -->
+<rect width="800" height="180" fill="#05050f"/>
+<rect width="800" height="180" fill="url(#grid)" opacity="0.5"/>
+
+<!-- ── CHECKERED STRIPS ── -->
+<rect x="0"   y="0" width="42" height="180" fill="url(#chk)"/>
+<rect x="758" y="0" width="42" height="180" fill="url(#chk)"/>
+
+<!-- Neon separator lines -->
+<line x1="42"  y1="0" x2="42"  y2="180" stroke="#00ffe5" stroke-width="2"/>
+<line x1="758" y1="0" x2="758" y2="180" stroke="#00ffe5" stroke-width="2"/>
+
+<!-- ── TOP CYAN STRIPE ── -->
+<rect x="42" y="0" width="716" height="3" fill="#00ffe5"/>
+
+<!-- ── HUD TOP BAR ── -->
+<rect x="42" y="3" width="716" height="22" fill="#080828"/>
+<line x1="42" y1="25" x2="758" y2="25" stroke="#00ffe5" stroke-width="1"/>
+
+<text x="56"  y="18" font-family="Courier New,monospace" font-size="12" fill="#ff0066" font-weight="bold" letter-spacing="2">PLAYER 1</text>
+<text x="400" y="18" font-family="Courier New,monospace" font-size="11" fill="#1a1a55" text-anchor="middle" letter-spacing="4">— CAREER MODE —</text>
+<text x="744" y="18" font-family="Courier New,monospace" font-size="12" fill="#00ffe5" font-weight="bold" text-anchor="end">LAP: 1 / INF</text>
+
+<!-- ── SPEED LINES (left accent) ── -->
+<line x1="43" y1="42" x2="130" y2="42" stroke="#00ffe5" stroke-width="1"   opacity="0.35"/>
+<line x1="43" y1="52" x2="170" y2="52" stroke="#00ffe5" stroke-width="1.5" opacity="0.45"/>
+<line x1="43" y1="62" x2="110" y2="62" stroke="#00ffe5" stroke-width="1"   opacity="0.3"/>
+<line x1="43" y1="72" x2="190" y2="72" stroke="#00ffe5" stroke-width="2"   opacity="0.55"/>
+<line x1="43" y1="82" x2="140" y2="82" stroke="#ff0066" stroke-width="1"   opacity="0.4"/>
+<line x1="43" y1="92" x2="120" y2="92" stroke="#00ffe5" stroke-width="1"   opacity="0.3"/>
+<line x1="43" y1="102" x2="160" y2="102" stroke="#ff0066" stroke-width="1" opacity="0.25"/>
+<line x1="43" y1="112" x2="100" y2="112" stroke="#00ffe5" stroke-width="1" opacity="0.2"/>
+
+<!-- ── MAIN NAME ── -->
+<text x="58" y="72" font-family="Courier New,Courier,monospace" font-size="34" fill="#ffffff" font-weight="bold" letter-spacing="3">VICHRUTH M</text>
+
+<!-- Speed underlines -->
+<rect x="58" y="77" width="390" height="2" fill="#00ffe5"/>
+<rect x="58" y="81" width="250" height="1" fill="#ff0066" opacity="0.8"/>
+
+<!-- ── SUBTITLE ── -->
+<text x="58" y="100" font-family="Courier New,Courier,monospace" font-size="13" fill="#00ffe5" letter-spacing="1.5">ML ENGINEER  *  COMPUTER VISION  *  EDGE AI  *  AI AUTOMATION</text>
+
+<!-- ── TEAM LINE ── -->
+<text x="58" y="118" font-family="Courier New,Courier,monospace" font-size="11" fill="#333366" letter-spacing="1">TEAM: VIT VELLORE / NIT TRICHY / IIIT KOTTAYAM</text>
+
+<!-- ── STAT CHIPS ── -->
+<!-- PATENT FILED -->
+<rect x="58"  y="128" width="98" height="14" fill="#120800" stroke="#ffe100" stroke-width="1"/>
+<text x="107" y="138.5" font-family="Courier New,monospace" font-size="9" fill="#ffe100" text-anchor="middle">PATENT FILED</text>
+<!-- PAPER IN PREP -->
+<rect x="161" y="128" width="104" height="14" fill="#120800" stroke="#ffe100" stroke-width="1"/>
+<text x="213" y="138.5" font-family="Courier New,monospace" font-size="9" fill="#ffe100" text-anchor="middle">PAPER IN PREP</text>
+<!-- OPEN TO HIRE -->
+<rect x="270" y="128" width="100" height="14" fill="#001510" stroke="#00ffe5" stroke-width="1.5"/>
+<text x="320" y="138.5" font-family="Courier New,monospace" font-size="9" fill="#00ffe5" text-anchor="middle" font-weight="bold">OPEN TO HIRE</text>
+<!-- FREELANCE OK -->
+<rect x="375" y="128" width="96" height="14" fill="#001510" stroke="#00ffe5" stroke-width="1"/>
+<text x="423" y="138.5" font-family="Courier New,monospace" font-size="9" fill="#00ffe5" text-anchor="middle">FREELANCE OK</text>
+
+<!-- ── RIGHT STATS PANEL ── -->
+<rect x="562" y="28" width="192" height="120" fill="#060620" stroke="#1a1a55" stroke-width="1"/>
+<rect x="562" y="28" width="192" height="18" fill="#0a0a30"/>
+<line x1="562" y1="46" x2="754" y2="46" stroke="#1a1a55" stroke-width="1"/>
+<text x="658" y="40" font-family="Courier New,monospace" font-size="10" fill="#333366" text-anchor="middle" letter-spacing="3">RACE STATS</text>
+
+<!-- Position big -->
+<text x="576" y="62" font-family="Courier New,monospace" font-size="10" fill="#555577" letter-spacing="2">POSITION</text>
+<text x="576" y="92" font-family="Courier New,Courier,monospace" font-size="42" fill="#ff0066" font-weight="bold" letter-spacing="-2">P1</text>
+
+<!-- Divider -->
+<line x1="562" y1="98" x2="754" y2="98" stroke="#0f0f30" stroke-width="1"/>
+
+<!-- stat rows -->
+<text x="576" y="111" font-family="Courier New,monospace" font-size="10" fill="#333366">PROJECTS  6 SHIPPED</text>
+<text x="576" y="124" font-family="Courier New,monospace" font-size="10" fill="#333366">QUESTS    2 ACTIVE</text>
+<text x="576" y="137" font-family="Courier New,monospace" font-size="10" fill="#00ffe5">MISSIONS  5 CLEARED</text>
+
+<!-- Blinking active indicator -->
+<rect class="bl" x="737" y="130" width="7" height="7" fill="#00ffe5" rx="1"/>
+
+<!-- ── PERSPECTIVE TRACK FLOOR ── -->
+<!-- Horizontal tracks (converging spacing = perspective) -->
+<line x1="42" y1="152" x2="758" y2="152" stroke="#0a0a35" stroke-width="1.5"/>
+<line x1="42" y1="158" x2="758" y2="158" stroke="#0a0a35" stroke-width="1.2"/>
+<line x1="42" y1="163" x2="758" y2="163" stroke="#0a0a35" stroke-width="1"/>
+<line x1="42" y1="167" x2="758" y2="167" stroke="#0a0a35" stroke-width="0.8"/>
+<line x1="42" y1="171" x2="758" y2="171" stroke="#0a0a35" stroke-width="0.6"/>
+<line x1="42" y1="175" x2="758" y2="175" stroke="#0a0a35" stroke-width="0.5"/>
+
+<!-- Vertical perspective lines converging to vanishing point (400, 152) -->
+<line x1="42"  y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+<line x1="110" y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+<line x1="190" y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+<line x1="280" y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+<line x1="400" y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+<line x1="520" y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+<line x1="610" y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+<line x1="690" y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+<line x1="758" y1="180" x2="400" y2="152" stroke="#0a0a35" stroke-width="0.5"/>
+
+<!-- Center dashed track line -->
+<line x1="400" y1="152" x2="400" y2="180" stroke="#ffe100" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+<!-- ── BOTTOM CONTACT BAR ── -->
+<rect x="42" y="151" width="716" height="2" fill="#00ffe5"/>
+<rect x="42" y="151" width="716" height="27" fill="#060620" opacity="0.92"/>
+<line x1="42" y1="151" x2="758" y2="151" stroke="#00ffe5" stroke-width="1"/>
+
+<text x="58"  y="168" font-family="Courier New,monospace" font-size="10" fill="#333366">github.com/vichruth</text>
+<text x="400" y="168" font-family="Courier New,monospace" font-size="10" fill="#333366" text-anchor="middle">vichruth.victorious@gmail.com</text>
+<text x="742" y="168" font-family="Courier New,monospace" font-size="10" fill="#333366" text-anchor="end">vichruth.github.io</text>
+
+<!-- ── BOTTOM CYAN STRIPE ── -->
+<rect x="42" y="177" width="716" height="3" fill="#00ffe5"/>
+</svg>
