@@ -1,4 +1,8 @@
-<h1 align="center">Hi, I'm Vichruth M 👋</h1>
+<div align="center">
+  <img src="./banner_racing.svg" alt="Vichruth M — Racing Portfolio Banner" width="100%">
+</div>
+
+<br>
 
 <p align="center">
   <b>Machine Learning Engineer · Computer Vision · Edge AI</b><br>
