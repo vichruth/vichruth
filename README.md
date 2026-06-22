@@ -33,19 +33,18 @@
 </div>
 
 ---
-
 ## 💼 Open for client & B2B work
 
-**I take on freelance and contract engagements — and I'm currently delivering a live production B2B system for a client.**
+**I take on freelance and contract work — and yes, I currently have a system in production that a real client pays for and everything.**
 
-> 🏢 **Live delivery:** A fully automated, 24/7 B2B lead-generation & enrichment pipeline for a client in the migration-services sector — built on self-hosted **n8n**, **PostgreSQL**, and **GPT-4o vision**, running on cloud infrastructure with human-in-the-loop approval over Telegram. Full funnel: scrape → AI website audit → personalised outreach → reply handling → proposal → Stripe payment → onboarding.
+> 🏢 **Live delivery:** A 24/7 B2B lead-generation pipeline for a migration-services client, built on self-hosted **n8n**, **PostgreSQL**, and **GPT-4o vision**. It scrapes, audits, writes outreach, handles replies, sends proposals, takes payment via Stripe, and onboards clients — the entire funnel — while the operator just taps "approve" on Telegram from their phone. It does more work in a day than I do, and it doesn't even ask for coffee.
 
 **What I build for clients:**
-- 🤖 **AI automation & workflow engineering** — n8n pipelines, GPT-4o agents, 15+ API integrations, human-in-the-loop ops
-- 🎥 **Computer vision** — detection, classification, video search, surveillance/threat-profiling pipelines
-- ⚡ **Edge & on-device AI** — model compression (quantization, pruning, FP16/INT8) to fit constrained hardware
-- 🔒 **Offline / on-premise systems** — local RAG, on-prem chatbots, zero-external-API pipelines for sensitive data
-- 🧱 **ML backends** — FastAPI / Flask / Django services around your models, with clean REST endpoints
+- 🤖 **AI automation** — n8n pipelines and GPT-4o agents that quietly run the boring stuff so humans don't have to
+- 🎥 **Computer vision** — detection, classification, video search, the works
+- ⚡ **Edge & on-device AI** — model compression (quantization, pruning, FP16/INT8) for hardware that really shouldn't be able to run this
+- 🔒 **Offline / on-premise systems** — local RAG and chatbots that never phone home, for data that legally can't leave the building
+- 🧱 **ML backends** — FastAPI / Flask / Django services around your models, with REST endpoints that actually behave
 
 📩 **Let's work together → [vichruth.victorious@gmail.com](mailto:vichruth.victorious@gmail.com)** · 📞 +91-7904815700
 
@@ -53,14 +52,12 @@
 
 ## 🔭 About me
 
-CSE undergraduate at **VIT Vellore** (B.Tech 2024–2028), currently splitting time across two research internships and active freelance delivery.
+CSE undergrad at **VIT Vellore** (2024–2028) currently running two research internships at the same time, which my sleep schedule has filed several complaints about.
 
-- 🔬 **Research Intern @ NIT Trichy** (Jun 2026) — multimodal student engagement detection: overhead CV pipeline on Raspberry Pi + 4-bit quantised local LLM, fully offline.
-- 🔬 **Research Intern @ IIIT Kottayam** — person re-identification with TransReID and ViT-MTL architectures; model compression for edge deployment. Patent filed. Paper in progress.
+- 🔬 **Research Intern @ NIT Trichy** — a multimodal engagement-detection system that runs fully offline on a Raspberry Pi. No cloud, no API calls, just a tiny computer punching way above its weight class.
+- 🔬 **Research Intern @ IIIT Kottayam** — person re-identification with TransReID and ViT-MTL. Built the architecture, then found three silent bugs that never crashed and quietly made it learn nothing. Found them. Fixed them. Aged considerably. *Patent filed. Paper in progress.*
 
-I like the hard, unglamorous part of ML — making heavyweight models small, fast, and actually deployable in the real world.
-
----
+I'm into the unglamorous part of ML — making heavyweight models small, fast, and actually deployable. If it involves fitting something big into hardware that's clearly too small for it, that's my favorite problem.
 
 ## 🛠️ Tech stack
 
@@ -118,10 +115,11 @@ I like the hard, unglamorous part of ML — making heavyweight models small, fas
 ## 🏆 Achievements & competitions
 
 <div align="center">
-
+*Proof that the suffering occasionally produces results:*
 | | Achievement |
 |---|---|
-| 📄 | **Patent application filed** — embedded ML model memory-optimisation pipeline |
+
+| 📝 | **Research paper in progress** — Classroom Attentiveness (with Dr. Janet B, NIT Trichy) |
 | 📝 | **Research paper in progress** — Person Re-Identification (with Dr. Sridhar Raj S, IIIT Kottayam) |
 | 🧪 | **FREUID Challenge 2026** (IJCAI-ECAI) — identity document fraud detection |
 | 🥈 | **2nd Prize, Hackademia — graVITas '25** — NLP course-search tool (MiniLM + FastAPI) |
